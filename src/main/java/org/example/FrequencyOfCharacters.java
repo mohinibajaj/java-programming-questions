@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.HashMap;
+import java.util.Map;
 
 class FrequencyOfCharacters {
     public static void main(String[] args) {
@@ -16,6 +17,15 @@ class FrequencyOfCharacters {
             map.put (ch, map.getOrDefault(ch , 0 ) + 1);
 
         }
+
+        //OR
+
+        // 2. Use entryset to print single single values
+
+        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+
         System.out.println(map);
     }
 }
