@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.HashMap;
 
-public class FrequemcyOfSpecialCharacter {
+public class FrequencyOfSpecialCharacter {
 
     public static void main(String[] args) {
 

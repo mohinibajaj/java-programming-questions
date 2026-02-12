@@ -17,11 +17,11 @@ public class LengthOfLastWordInString {
                 {
                     count ++ ;
                 }
-                else if (count > 0 ) {
-
-                    System.out.println("count for last word    : " + count);
-                    break;
+                else break;
                 }
-            }
+
+            System.out.println("count for last word    : " + count);
+
         }
-}
+        }
+
