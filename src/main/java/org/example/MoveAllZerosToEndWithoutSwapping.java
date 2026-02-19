@@ -1,7 +1,5 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 class MoveAllZerosToEndWithoutSwapping {
     public static void main(String[] args) {
 
@@ -13,10 +11,12 @@ class MoveAllZerosToEndWithoutSwapping {
                 a[put]  = a[current];
                 put++;
             }}
+
         while(put < a.length){
             a[put] = 0;
             put ++;
         }
+
         for (int n : a ){
             System.out.print( n + " ");
         }

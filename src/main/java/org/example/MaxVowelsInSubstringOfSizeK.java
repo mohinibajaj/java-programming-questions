@@ -34,6 +34,8 @@ public class MaxVowelsInSubstringOfSizeK {
 
         }
 
+        //i enters, i - k exits
+
         System.out.println(maxVowels);
 
     }
